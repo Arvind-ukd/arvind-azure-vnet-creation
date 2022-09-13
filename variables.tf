@@ -20,5 +20,5 @@ variable "location" {
 
   variable "resoucegp" {
   description = "Name of the resouce group"
-  default     =  " arvind-rg-13sept2022"
+  default     =   "arvind-rg-13sept2022"
   }
