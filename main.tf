@@ -22,7 +22,7 @@ resource "azurerm_virtual_network" "example" {
     address_prefix = "10.2.0.0/24"
   }
 
- resource "azurerm_virtual_network" "example2 {
+ resource "azurerm_virtual_network" "example2" {
   name                = "eastus-vnet"
   location            = var.location2
   resource_group_name = var.resoucegp
