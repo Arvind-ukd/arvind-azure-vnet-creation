@@ -20,7 +20,7 @@ resource "azurerm_virtual_network" "example" {
 
   subnet {
     name           = "subnet1"
-    address_prefix = "10.2.0.0/24"
+    address_prefix = "10.1.0.0/24"
   }
 }
  resource "azurerm_virtual_network" "example2" {
