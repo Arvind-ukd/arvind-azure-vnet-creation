@@ -9,6 +9,7 @@ resource "azurerm_virtual_network" "example" {
     name           = "subnet1"
     address_prefix = "10.0.1.0/24"
   }
+  }
 
   resource "azurerm_virtual_network" "example1" {
   name                = "southindia-vnet"
@@ -21,7 +22,7 @@ resource "azurerm_virtual_network" "example" {
     name           = "subnet1"
     address_prefix = "10.2.0.0/24"
   }
-
+}
  resource "azurerm_virtual_network" "example2" {
   name                = "eastus-vnet"
   location            = var.location2
@@ -32,6 +33,7 @@ resource "azurerm_virtual_network" "example" {
   subnet {
     name           = "subnet1"
     address_prefix = "192.168.0.0/24"
+  }
   }
 
    resource "azurerm_virtual_network" "example3" {
@@ -44,4 +46,5 @@ resource "azurerm_virtual_network" "example" {
   subnet {
     name           = "subnet1"
     address_prefix = "172.16.0.0/24"
+  }
   }
